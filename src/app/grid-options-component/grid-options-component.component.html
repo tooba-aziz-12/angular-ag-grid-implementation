@@ -1,0 +1,21 @@
+<ag-grid-angular
+    #agGrid
+    id="myGrid"
+    style="width: 1500px; height: 750px;"
+    class="ag-theme-balham"
+    [modules]="modules"
+    [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
+    [components]="components"
+    [rowBuffer]="rowBuffer"
+    [rowSelection]="rowSelection"
+    [rowDeselection]="true"
+    [rowModelType]="rowModelType"
+    [paginationPageSize]="paginationPageSize"
+    [cacheOverflowSize]="cacheOverflowSize"
+    [maxConcurrentDatasourceRequests]="maxConcurrentDatasourceRequests"
+    [infiniteInitialRowCount]="infiniteInitialRowCount"
+    [maxBlocksInCache]="maxBlocksInCache"
+    [rowData]="rowData"
+    (gridReady)="onGridReady($event)"
+></ag-grid-angular>
