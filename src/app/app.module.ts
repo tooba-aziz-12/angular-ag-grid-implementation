@@ -7,13 +7,15 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { GridOptionsComponentComponent } from './grid-options-component/grid-options-component.component';
 import { AgGridInitialComponent } from './ag-grid-initial/ag-grid-initial.component';
 import { FormsModule } from '@angular/forms';
+import { AgGridServerSideFilterationComponent } from './ag-grid-server-side-filteration/ag-grid-server-side-filteration.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     GridOptionsComponentComponent,
-    AgGridInitialComponent
+    AgGridInitialComponent,
+    AgGridServerSideFilterationComponent
   ],
   imports: [
     BrowserModule,
